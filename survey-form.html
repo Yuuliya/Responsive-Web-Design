@@ -3,18 +3,26 @@
 body{
 background-color: #d6eff3;
 }
+fieldset {
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
     
   </style>
+ 
   <body>
+<fieldset>
   <h1 id="title">Survey</h1>
   <h2 id="Description">Description</h2>
-       <form id="survey-form">
+    <form id="survey-form">
   <p> <label for="name">Name</label> </p>
 <input name="name" id="name" type="text" placeholder="Enter your name"></p>
  <p> <label for="email">E-mail</label></p>
-<input name="email" id="email" type="text" placeholder="Enter your e-mail">
- <p> <label for="age">Age</label></p>
+<input name="email" id="email" type="text" placeholder="Enter your e-mail" required>
+    <p> <label for="age">Age</label></p>
 <input name="age" id="number" type="text" placeholder="Age">
        </form>  
+</fieldset>
   </body>
 </html>
